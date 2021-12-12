@@ -1,5 +1,5 @@
 <?php
-    include_once("view/header.php");
+    include_once("view/header1.php");
 ?>
 <li class="nav-item">
     <a class="nav-link" href="index.php">Home</a>
@@ -14,8 +14,8 @@
     <a class="nav-link" href="onde_estamos.php">Onde Estamos</a>
 </li>
 <?php
-    include_once("view/header_fim.php");
-    include("view/text_sobre.php");
+    include_once("view/header2.php");
+    include("view/txt/texto_sobre.php");
 
 ?>
 <div class="container texto">

@@ -1,5 +1,5 @@
 <?php
-    include_once("view/header.php");
+    include_once("view/header1.php");
 ?>
 <li class="nav-item">
     <a class="nav-link active" href="#">Home</a>
@@ -14,20 +14,20 @@
     <a class="nav-link" href="onde_estamos.php">Onde Estamos</a>
 </li>
 <?php
-    include_once("view/header_fim.php");
+    include_once("view/header2.php");
 ?>
 <main class="header">
-    <img src="view/img/index/img_header.jpg" class="img-fluid" alt="Computador por dentro">
+    <img src="view/img/index/img_header.jpg" class="img-fluid" alt="Foto interna de um computador">
     <div class="title_header">
         <h1>
-            <a class="typewrite" data-period="2000" data-type='[ "FourTech" ]'>
+            <a class="typewrite" data-period="2000" data-type='["FourTech"]'>
             <span class="wrap"></span></a>
         </h1>
         <h2>Soluções para Micro Empresas e Pequenos Negócios</h2>
     </div>
 </main>
 <?php
-include("view/cards.php");
+include("view/cards/textos.php");
 $ini=0;
 $n001=0;
 for($n=1;$n<=3;$n++){

@@ -1,5 +1,5 @@
 <?php
-    include_once("view/header.php");
+    include_once("view/header1.php");
 ?>
 <li class="nav-item">
     <a class="nav-link" href="index.php">Home</a>
@@ -14,7 +14,7 @@
     <a class="nav-link active" href="#">Onde Estamos</a>
 </li>
 <?php
-    include_once("view/header_fim.php");
+    include_once("view/header2.php");
 ?>
 <div class="container ondeestamos">
     <h1>Onde Estamos</h1>
@@ -30,7 +30,7 @@
         <div class="col-md-4 buttons">
             <a class="btn btn-dark rounded-circle btn-lg"><i class="fa fa-phone"></i></a>
             <p><b>+55 (11) 4336-7900</b></p>
-            <p><b>Seg - Sex ~ 8:00-22:00</b></p>
+            <p><b>Seg - Sext ~ 8:00-22:00</b></p>
         </div>
         <div class="col-md-4 buttons">
             <a class="btn btn-dark rounded-circle btn-lg"><i class="fa fa-envelope"></i></a>
